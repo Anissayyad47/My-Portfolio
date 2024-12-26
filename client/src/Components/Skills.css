@@ -1,0 +1,190 @@
+.skill-div{
+    display: flex;
+    justify-content: center;
+}
+.Skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    border: 3px solid;
+    width: 90%;
+    border-radius: 50px;
+}
+.Skills h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid;
+    text-align: center;
+}
+
+.skill-box{
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+}
+.frontend-box{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.frontend{
+    width: 50%;
+}
+.frontend h2{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom:30px ;
+    border-bottom: 3px solid;
+}
+li{
+    list-style: none;
+    margin: 30px 0;
+}
+.skillbar {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.skillbar span {
+    display: block;
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ff8500, #eb1254);
+
+}
+
+.html {
+    width: 60%;
+    animation: html 2s ease-in;
+}
+
+.css {
+    width: 50%;
+    animation: css 2s ease-in;
+}
+
+.js {
+    width: 75%;
+    animation: js 2s ease-in;
+}
+
+.react {
+    width: 70%;
+    animation: react 2s ease-in;
+}
+
+@keyframes html {
+    from { width: 0; }
+    to { width: 60%; }
+}
+
+@keyframes css {
+    from { width: 0; }
+    to { width: 50%; }
+}
+
+@keyframes js {
+    from { width: 0; }
+    to { width: 75%; }
+}
+
+@keyframes react {
+    from { width: 0; }
+    to { width: 70%; }
+}
+
+.backend-box{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.backend{
+    width: 50%;
+}
+.backend h2{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom:30px ;
+    border-bottom: 3px solid;
+}
+.node {
+    width: 80%;
+    animation: html 2s ease-in;
+}
+
+.express {
+    width: 70%;
+    animation: css 2s ease-in;
+}
+
+.mongo {
+    width: 85%;
+    animation: js 2s ease-in;
+}
+
+.mysql {
+    width: 70%;
+    animation: react 2s ease-in;
+}
+
+@keyframes node {
+    from { width: 0; }
+    to { width: 60%; }
+}
+
+@keyframes express {
+    from { width: 0; }
+    to { width: 50%; }
+}
+
+@keyframes mongo {
+    from { width: 0; }
+    to { width: 75%; }
+}
+
+@keyframes mysql {
+    from { width: 0; }
+    to { width: 70%; }
+}
+
+.tool-box{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    margin-top: 50px;
+}
+.tool-box h2{
+    margin-bottom: 30px;
+    border-bottom: 3px solid;
+}
+.tool-box ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 180px;
+}
+.img{
+    width: 180px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    
+    width: 55%;
+    height: 60%;
+}
+
